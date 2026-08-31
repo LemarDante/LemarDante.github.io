@@ -5,7 +5,7 @@
 body {
   margin: 0;
   background: #009985;
-  color: #222;
+  color: #2d14a7;
   font-family: "Helvetica Neue", Arial, sans-serif;
 }
 
@@ -122,7 +122,7 @@ h2 {
   display: block;
   border-radius: 16px;
   filter: grayscale(100%);
-  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+  box-shadow: 0 8px 30px rgb(88, 207, 149);
   transition:
     filter 0.4s ease,
     transform 0.4s ease,
@@ -132,7 +132,7 @@ h2 {
 .sidebar-img:hover {
   filter: grayscale(0%);
   transform: translateY(-4px);
-  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.18);
+  box-shadow: 0 16px 40px rgb(226, 63, 4);
 }
 
 .sidebar-img {
@@ -142,7 +142,7 @@ h2 {
   object-fit: cover;
   display: block;
   border-radius: 24px;
-  box-shadow: 0 8px 30px rgba(255, 120, 1, 0.12);
+  box-shadow: 0 8px 30px rgb(255, 120, 1);
 }
 
 nav {
@@ -151,8 +151,8 @@ nav {
   align-items: center;
   margin-bottom: 48px;
   padding: 16px 24px;
-  background: #fff;
-  border: 1px solid #e0e0e0;
+  background: #2A4B7C;
+  border: 1px solid #B37DEA;
   border-radius: 12px;
 }
 
@@ -162,7 +162,7 @@ nav h1 {
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.2em;
-  color: #000;
+  color: #f7d36a;
 }
 
 #nav-ul {
@@ -174,7 +174,7 @@ nav h1 {
 }
 
 .nav-li a {
-  color: #666;
+  color: #79AFAD;
   text-decoration: none;
   font-size: 0.85rem;
   font-weight: 500;
@@ -186,31 +186,31 @@ nav h1 {
 }
 
 .nav-li a:hover {
-  background: #00ff48;
-  color: #ff7621;
+  background: #0018A8;
+  color: #F5BD02;
 }
 
 nav {
-  background: #fab133;
-  border-color: #0808ff;
+  background: #4ab1be;
+  border-color: #F0FFF0;
 }
 
 nav h1 {
-  color: #fe002a;
+  color: #6A00FF;
 }
 
 .nav-li a {
-  color: #00a6ff;
+  color: #FD5E53;
 }
 
 .nav-li a:hover {
-  background: #bb00ff;
-  color: #129f54;
+  background: #3b0dc6;
+  color: #FABBB8;
 }
 
 
 .content h1 {
-  color: black;
+  color: rgb(238, 160, 160);
 }
 
 #portfolio {
@@ -233,19 +233,19 @@ nav h1 {
   justify-content: space-between;
   align-items: center;
   text-decoration: none;
-  color: #444;
+  color: #B7D0E1;
   padding: 16px 20px;
   font-size: 1.1rem;
   font-weight: 500;
-  background: #fff;
-  border: 1px solid #e0e0e0;
+  background: #FF6037;
+  border: 1px solid #37D6FF;
   border-radius: 12px;
   transition: background 0.25s ease, color 0.25s ease, transform 0.25s ease;
 }
 
 #portfolio a:hover {
-  background: #000;
-  color: #fff;
+  background: #37D6FF;
+  color: #FF6037;
   transform: translateX(4px);
 }
 
