@@ -60,7 +60,7 @@
         }
 
         // changes the text displayed on the Box
-        function changeBoxText(newText) {
+        function changeBoxText(points) {
           box.text(newText);
         }
 
@@ -89,7 +89,7 @@
         points = 0
         if (positionX > boardWidth) {
           speed = speed * -1;
-          if (positionX < 0) {
+        } else if (positionX < 0) {
             speed *= -1
           }
         }
