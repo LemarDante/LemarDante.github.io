@@ -261,3 +261,7 @@ nav h1 {
   opacity: 1;
 }
 
+body {
+ background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRr44OVUNMMQkrZZClNpkMxw5a-DkhxOEIJBr1Kk2M9v3UerRmcBdFJo-vD&s=10");
+ background-color: #041A40;
+}
